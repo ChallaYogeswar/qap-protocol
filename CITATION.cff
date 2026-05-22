@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you reference or build upon this work, please cite it as below."
+type: software
+title: "QAP — Quiesce-Authorize Protocol"
+abstract: >
+  A Peer-Authenticated Dynamic Defense Architecture for Zero-Trust Network
+  Security. QAP introduces a stateful, trust-scored session negotiation model
+  in which network nodes dynamically advertise protected Quiesce states and
+  resume active participation through cryptographically signed peer-issued
+  Authorization tokens. The protocol enforces mutual exclusion constraints,
+  quorum-based availability guarantees, hardware-attested load certification,
+  and kernel-level eBPF enforcement as a complementary layer to existing
+  zero-trust and Moving Target Defense frameworks.
+authors:
+  - family-names: "CHALLAYOGESWAR"
+    email: "challayogeswar8790@gmail.com"
+version: "1.0"
+date-released: "2026-05-21"
+license: "CC-BY-NC-ND-4.0"
+repository-code: "https://github.com/CHALLAYOGESWAR/qap-protocol"
+keywords:
+  - cybersecurity
+  - network security
+  - zero-trust architecture
+  - moving target defense
+  - dynamic defense
+  - peer authentication
+  - cryptographic protocols
+  - TPM attestation
+  - eBPF
+  - quiesce protocol
+  - authorization tokens
+  - trust scoring
+  - distributed security
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: "CHALLAYOGESWAR"
+      email: "challayogeswar8790@gmail.com"
+  title: "QAP — Quiesce-Authorize Protocol: A Peer-Authenticated Dynamic Defense Architecture for Zero-Trust Network Security"
+  year: 2026
+  version: "1.0"
+  url: "https://github.com/CHALLAYOGESWAR/qap-protocol"

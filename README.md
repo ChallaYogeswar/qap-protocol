@@ -58,7 +58,7 @@ QAP addresses this gap directly.
          │                                             │
     ┌────▼────┐   Quiesce claim    ┌──────────┐        │
     │ ACTIVE  │ ─────────────────► │ QUIESCE  │        │
-    │         │                   │          │        │
+    │         │                    │          │        │
     │         │ ◄───────────────── │  (TTL)   │        │
     └────┬────┘  Authorization JWT └─────┬────┘        │
          │                              │              │
